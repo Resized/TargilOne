@@ -3,65 +3,29 @@
 
 <head>
     <title>Tokyo</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid rgb(68, 162, 255);
-            border-collapse: collapse;
-        }
-
-        th,
-        td {
-            padding: 15px;
-        }
-
-        a {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-weight: bold;
-        }
-
-        li {
-            float: left;
-            margin-top: 9px;
-        }
-
-        li a {
-            color: rgb(50, 130, 209);
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-        }
-
-        ul {
-            display: inline;
-            list-style-type: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav style="background-color: rgb(255, 240, 217); height: 40px;">
-            <ul>
-                <li><a href="index.html">HOME</a>
-                </li>
-                <li><a href="paris.html">PARIS</a>
-                </li>
-                <li><a href="tokyo.html" style="color: rgb(0, 0, 0)">TOKYO</a>
-                </li>
-                <li><a href="newyork.html">NEW YORK</a>
-                </li>
-                <li><a href="london.html">LONDON</a>
-                </li>
-                <li><a href="rome.html">ROME</a>
-                </li>
-            </ul>
-        </nav>
+        <div style="background-color: rgb(255, 240, 217);">
+            <nav style="height: 40px;">
+                <ul>
+                    <li><a href="index.html">HOME</a>
+                    </li>
+                    <li><a href="paris.html">PARIS</a>
+                    </li>
+                    <li><a href="tokyo.html" style="color: rgb(0, 0, 0)">TOKYO</a>
+                    </li>
+                    <li><a href="newyork.html">NEW YORK</a>
+                    </li>
+                    <li><a href="london.html">LONDON</a>
+                    </li>
+                    <li><a href="rome.html">ROME</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <hr>
     </header>
     <div style="background-color:rgb(68, 162, 255);height: 50px;">
@@ -69,13 +33,13 @@
             TOKYO</h1>
     </div>
 
-    <table style="width:60%;">
+    <table>
         <tr>
             <td rowspan="2"><img src="images/tokyo.jpg" title="Tokyo" style="width: 800px;"></td>
-            <th style="font-size: 200%;">Description</th>
+            <th>Description</th>
         </tr>
         <tr>
-            <td style="font-size: 20px;">Tokyo is Japan's capital and the world's most populous metropolis.
+            <td>Tokyo is Japan's capital and the world's most populous metropolis.
                 It is also one of Japan's 47 prefectures, consisting of 23 central city wards and multiple cities, towns
                 and villages west of the city center. The Izu and Ogasawara Islands are also part of Tokyo. Prior to
                 1868, Tokyo was known as Edo.</td>
